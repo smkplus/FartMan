@@ -231,11 +231,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Chos.cs" />
-    <Compile Include="Assets\Fart.cs" />
-    <Compile Include="Assets\FartPower.cs" />
-    <Compile Include="Assets\Singleton.cs" />
-    <Compile Include="Assets\SmoothFollow2D.cs" />
+    <Compile Include="Assets\Scripts\Chos.cs" />
+    <Compile Include="Assets\Scripts\Fart.cs" />
+    <Compile Include="Assets\Scripts\FartPower.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
+    <Compile Include="Assets\Scripts\SmoothFollow2D.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
